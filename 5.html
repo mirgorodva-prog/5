@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 6: Калькулятор switch</title>
+    <link rel="stylesheet" href="5.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Калькулятор</h2>
+        <div class="input-field">
+            <label for="num1">Число 1:</label>
+            <input type="number" id="num1" placeholder="Перше число">
+        </div>
+        <div class="input-field">
+            <label for="operator">Операція:</label>
+            <select id="operator">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </div>
+        <div class="input-field">
+            <label for="num2">Число 2:</label>
+            <input type="number" id="num2" placeholder="Друге число">
+        </div>
+        <button id="calcBtn">Обчислити</button>
+        <div class="result-box">
+            Результат: <span id="calcResult">---</span>
+        </div>
+    </div>
+    <script src="5.js"></script>
+</body>
+</html>
